@@ -114,3 +114,89 @@ main section{
 .info label,h3{
     text-align: center;
 }
+
+/* what I do */
+.what-i-do{
+    text-align: center;
+    padding: 0 200px 0 200px;
+}
+.what-i-do h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.what-i-do p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.skills{
+    display: flex;
+   padding: 50px 0px;
+}
+.skills div{
+    width: 267px;
+    height: 277px;
+    margin: 20px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 20px;
+text-align: left;
+}
+.skills div h3{
+font-size: 20px;
+padding: 18px 0px;
+text-align: left;
+
+}
+.skills div p{
+font-size: 16px;
+padding: 18px 0px;
+
+}
+
+/* resume */
+.resume{
+    text-align: center;
+    margin: 0 230px;
+}
+.heading-resume,h1{
+    font-size: 35px;
+    font-weight: 700px;
+    padding-bottom: 50px;
+}
+.resume-details{
+    display: flex;
+    column-gap: 50px;
+}
+.education{
+    text-align: left;
+    
+}
+.education h1,h3,h5,p{
+    padding: 10px 0;
+}
+.experience,h3{
+    text-align: left;
+}
+.resume-btn{
+    margin-top: 50px;
+}
+
+/* footer */
+footer{
+    display: flex
+}
+.contact-form h1,textarea,input[type="text"],input[type="email"]{
+    display: block;
+    margin-bottom: 10px;
+    height: 64px;
+    width: 481px;
+    padding: 0 20px;
+    border: 0;
+    background-color: #fff;
+}
+.contact-form textarea{
+    
+    height: 180px;
+
+}
