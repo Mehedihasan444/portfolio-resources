@@ -8,7 +8,6 @@ header{
     background-repeat: no-repeat;
     background-position: top left , bottom right;
     background-color:#FFF8F3;
-   /* padding: 20px 0px; */
 }
 nav{
     display: flex;
@@ -191,7 +190,7 @@ footer{
 }
 .footer{
     background-color:  #FFF8F3;
-    padding: 0 230px;
+    padding: 30px 230px;
 }
 .contact-form h1,textarea,input[type="text"],input[type="email"]{
     display: block;
@@ -210,5 +209,5 @@ footer{
     width: 50%;
 }
 .footer h1,h3{
-    font-size: 35px;
+    font-size: 20px;
 }
