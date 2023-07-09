@@ -184,19 +184,31 @@ padding: 18px 0px;
 
 /* footer */
 footer{
-    display: flex
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.footer{
+    background-color:  #FFF8F3;
+    padding: 0 230px;
 }
 .contact-form h1,textarea,input[type="text"],input[type="email"]{
     display: block;
     margin-bottom: 10px;
-    height: 64px;
+    height: 55px;
     width: 481px;
     padding: 0 20px;
     border: 0;
-    background-color: #fff;
 }
 .contact-form textarea{
-    
+    color: #757575;
     height: 180px;
 
+}
+.footer-content{
+    width: 50%;
+}
+.footer h1,h3{
+    font-size: 35px;
 }
